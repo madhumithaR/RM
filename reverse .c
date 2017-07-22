@@ -3,14 +3,14 @@
  
 int main()
 {
-   char arr[100];
+   char m[100];
  
    printf("Enter a string to reverse\n");
-   gets(arr);
+   gets(m);
  
-   strrev(arr);
+   strrev(m);
  
-   printf("Reverse of entered string is \n%s\n",arr);
+   printf("Reverse of entered string is \n%s\n",m);
  
    return 0;
 }
